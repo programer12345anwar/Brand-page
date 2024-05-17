@@ -12,7 +12,7 @@ const Hero = () => {
         </p>
         <div className="hero-btn">
           <button>Shop now</button>
-          <button style={{ backgroundColor: 'var(--button-bg-color)' }}>Category</button>
+          <button id='category'>Category</button>
         </div>
         <div className="shopping">
           <p>Also available on</p>
