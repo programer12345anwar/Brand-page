@@ -3,16 +3,70 @@
 body{
   font-family: "popins",sans-serif;
 }
+:root{
+  --red:#D01C28;
+  --button-bg-color: #D01C28;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+button,nav ul{
+  cursor: pointer;
+}
+button{
+  background-color: var(--red);
+  padding: 6px 16px;
+  font-weight: 700;
+  height: 32px;
+  color: white;
+
+}
+.Navbar{
+  margin: 0 12px 0 12px;
+}
  nav{
+  padding: 10px 0 10px 0;
   display: flex;
-  /* gap:15rem; */
-  justify-content: space-between;
-  max-width: 1280px;
+  gap:33rem;
+  /* justify-content: space-between; */
+  max-width:1430px;
+  height:60px;
+  align-items: center;
+  
  }
- ul{
+ nav ul{
+ 
   display: flex;
   flex-direction: row;
   text-decoration: none;
   list-style-type: none;
   gap: 40px;
  }
+ .Hero-section{
+  display: flex;
+  align-items: center;
+  height: 613px;
+  width: 1125px;
+  margin: 0 auto;
+  
+ }
+.Hero-section .Hero-containts{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 613px;
+  width: 595px;
+}
+.Hero-containts h1{
+  font-weight: 800;
+  font-size: 2rem;
+}
+.Hero-section .Hero-image{
+  /* position: fixed; */
+  height:487.06px ;
+  width:530px ;
+}
+.Brand-logo{
+  cursor: pointer;
+}

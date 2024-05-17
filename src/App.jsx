@@ -1,22 +1,15 @@
  import './App.css'
+import Hero from './components/Hero'
+ import Nav from './components/Navigation'
+ Hero
 
 function App() {
   
   return (
     <>
       <div>
-        <nav>
-          <div className='logo'>
-          <img src="/images/brand_logo.png" alt="logo" />
-          </div>
-          <ul>
-            <li>Menu</li>
-            <li>Location</li>
-            <li>About</li>
-            <li>Contact</li>
-          </ul>
-          <button>Login</button>
-        </nav>
+        <Nav />
+        <Hero />
       </div>
     </>
   )
